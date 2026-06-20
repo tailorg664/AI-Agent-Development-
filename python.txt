@@ -1,0 +1,9 @@
+Virtual Environment :
+Isolated Python Environment (IPE) to manage different projects,
+How to use? 
+Methods are :
+1) use Ctrl + Shift + P method -> Python Create Environment -> .venv
+2) Terminal based method -> python -m venv .venv
+
+Interactive Python : Way to use python as a live server
+installation -> pip install ipykernel
