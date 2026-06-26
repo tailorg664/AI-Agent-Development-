@@ -13,3 +13,12 @@ installation -> pip install ipykernel
 💡Use `pass` in functions to create a blank {} behaviour
 
 Classes in Python:
+to define class simply write:
+class Class_Name :
+      attributes and Methods
+
+1) __init__ : its our custom constructor
+2) self : used to use the attributes without actually calling them, work as a 'self object'.
+3) Two variables : a) Class Variable(same for each object) and b) Instance Variable(unique for each object)
+
+Best Practice for Classes : Class variables should be contant because every object share this common space of memory.
