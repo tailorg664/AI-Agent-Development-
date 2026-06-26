@@ -1,0 +1,59 @@
+import requests
+request = requests.get("https://api.github.com")
+print(request.status_code)
+
+# Basic code work
+a = 1
+b = 2
+c = a + b
+print(c)
+greetA = "Hello"
+greetB = "World"
+print(greetA + " " + greetB)
+print(len(greetA + " " + greetB))
+
+f"{greetA} {greetB}"
+# this is similar to ${greetA} ${greetB} in JS as f-strings are used for string interpolation in Python.
+
+# arithmetic operations
+# & , | becomes and , or in python
+
+message = "I love Python programming with Python"
+print(message.count("Python"))
+print(message.replace("Python", "JavaScript"))
+print(message.find("Python"))
+print("Python" in message)
+
+# conditional statements
+temperature = 25
+if temperature > 30 :
+      print("It's a hot day")
+elif temperature > 20 :
+      print("It's a nice day")
+else :
+      print("It's a cold day")
+
+# Loops
+for i in range(10):
+      print(i)
+for i in range(4,8): # this will print numbers from 4 to 7
+      print(i)
+for x in "Python": # this will print each character in the string "Python"
+      print(x)
+while temperature > 20:
+      print("It's a nice day")
+      temperature -= 1 # this will decrease the temperature by 2 in each iteration of the loop
+
+# Data structures
+# Lists
+my_list = []
+my_list.append(1)
+my_list.append(2)
+my_list.append(3)
+print(my_list)
+my_list.insert(1, 1.5) # this will insert 1.5 at index 1
+print(my_list)
+my_list.remove(2) # this will remove the first occurrence of 2 from the list
+print(my_list)
+del my_list[0] # this will delete the element at index 0
+print(my_list)

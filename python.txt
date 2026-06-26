@@ -7,3 +7,9 @@ Methods are :
 
 Interactive Python : Way to use python as a live server
 installation -> pip install ipykernel
+
+🚨Python won’t run if your indentation is wrong. This is the #1 beginner mistake!
+
+💡Use `pass` in functions to create a blank {} behaviour
+
+Classes in Python:
